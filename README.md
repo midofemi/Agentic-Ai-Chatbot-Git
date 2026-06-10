@@ -1,7 +1,18 @@
+---
+title: LanggraphAgenticAI
+emoji: 🐨
+colorFrom: blue
+colorTo: red
+sdk: streamlit
+sdk_version: 1.42.0
+app_file: app.py
+pinned: false
+license: apache-2.0
+short_description: Refined langgraphAgenticAI
+---
+
 # Agentic-Ai-Chatbot-Git
 This is an agentic AI chatbot built using LangGraph and Streamlit, enabling stateful conversations, intelligent reasoning, and multi-step task execution through an intuitive web interface
-
-![alt text](image.png)
 
 🚀 Getting Started
 Prerequisites
