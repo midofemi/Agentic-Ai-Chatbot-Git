@@ -7,14 +7,6 @@ from src.langgraphagenticai.nodes.chatbot_with_Tool_node import ChatbotWithToolN
 from src.langgraphagenticai.tools.serach_tool import get_tools,create_tool_node
 from src.langgraphagenticai.nodes.ai_news_node import AINewsNode
 
-"""
-This .py file is responsible for building the graph based on the selected use case. 
-It defines a `GraphBuilder` class that contains methods to construct different types of graphs, such as a basic chatbot, a chatbot with tool integration, 
-and an AI news summarizer. Each method sets up the nodes and edges of the graph according to the requirements of the use case. So if there is any new graph
-you want to add you can easily add it here
-"""
-
-
 class GraphBuilder:
 
     def __init__(self,model):

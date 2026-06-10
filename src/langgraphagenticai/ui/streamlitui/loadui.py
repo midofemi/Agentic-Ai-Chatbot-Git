@@ -4,14 +4,6 @@ from datetime import date
 
 from langchain_core.messages import AIMessage,HumanMessage
 from src.langgraphagenticai.ui.uiconfigfile import Config
-"""
-Here is where we load our options like what kind of model you want, inputing your Groq API key, TAVILY API key and also the use case you want to run. 
-This is the first step of our UI where we gather all the necessary information from the user to run the graph. We also initialize our session state here 
-to keep track of the user's progress and inputs throughout the interaction with the agentic AI graph.
-
-So pretty much this .py help us load our configurations and user inputs on the Streamlit UI, which will be used later to execute/invoke our graph and display 
-results accordingly.
-"""
 
 class LoadStreamlitUI:
     def __init__(self):
