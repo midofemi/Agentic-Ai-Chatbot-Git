@@ -24,4 +24,4 @@ Start your streamlit application:
 ```bash
    streamlit run app.py
    ```
-The application will be accessible at 'Local URL: http://localhost:8501' or 'Network URL: http://10.2.0.2:8501'
+The application will be accessible at 'Local URL: http://localhost:8501' or 'Network URL: http://10.2.0.2:8501' once you run your streamlit app
